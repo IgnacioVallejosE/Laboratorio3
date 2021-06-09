@@ -12,9 +12,7 @@ public class RAM {
     }
 
     public String getMarca() {
-        Scanner tec = new Scanner(System.in);
-        marca = tec.next();
-        return marca;
+       return marca;
     }
 
     public void setMarca(String marca) {
@@ -22,8 +20,6 @@ public class RAM {
     }
 
     public int getCapacidad() {
-        Scanner tec = new Scanner(System.in);
-        capacidad = tec.nextInt();
         return capacidad;
     }
 
@@ -32,8 +28,6 @@ public class RAM {
     }
 
     public int getFrecuencia() {
-        Scanner tec = new Scanner(System.in);
-        frecuencia = tec.nextInt();
         return frecuencia;
     }
 
